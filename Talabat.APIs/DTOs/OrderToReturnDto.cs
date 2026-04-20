@@ -1,0 +1,29 @@
+﻿using Talabat.Core.Entities.Order_Aggregate;
+
+namespace Talabat.APIs.DTOs;
+
+public class OrderToReturnDto
+{
+    public int Id { get; set; }
+    public string BuyerEmail { get; set; }
+
+    public DateTimeOffset OrderDate { get; set; }
+    
+    
+    public string Status { get; set; } 
+
+    public Address ShippingAddress { get; set; }
+
+
+    public string DeliveryMethod { get; set; }
+    
+    public int DeliveryMethodCost { get; set; }
+
+    public ICollection<OrderItemDto> Items { get; set; } 
+    
+    public decimal SubTotal { get; set; } 
+
+    public string PaymentIntedId { get; set; }
+
+    public decimal Total { get; set; } 
+}

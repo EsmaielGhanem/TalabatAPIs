@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.APIs", "Talabat.APIs\Talabat.APIs.csproj", "{CC16D273-B440-459D-9D64-D677B575A566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Core", "Talabat.Core\Talabat.Core.csproj", "{250A4AE0-C35B-4908-BEE2-1C803B9542F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Repository", "Talabat.Repository\Talabat.Repository.csproj", "{372DB887-8549-4324-83E2-0EC0ED7D7065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Service", "Talabat.Service\Talabat.Service.csproj", "{D49D7FCC-3ECB-4A52-A35A-7601542088EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC16D273-B440-459D-9D64-D677B575A566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC16D273-B440-459D-9D64-D677B575A566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC16D273-B440-459D-9D64-D677B575A566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC16D273-B440-459D-9D64-D677B575A566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250A4AE0-C35B-4908-BEE2-1C803B9542F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250A4AE0-C35B-4908-BEE2-1C803B9542F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250A4AE0-C35B-4908-BEE2-1C803B9542F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250A4AE0-C35B-4908-BEE2-1C803B9542F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372DB887-8549-4324-83E2-0EC0ED7D7065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372DB887-8549-4324-83E2-0EC0ED7D7065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372DB887-8549-4324-83E2-0EC0ED7D7065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372DB887-8549-4324-83E2-0EC0ED7D7065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49D7FCC-3ECB-4A52-A35A-7601542088EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49D7FCC-3ECB-4A52-A35A-7601542088EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49D7FCC-3ECB-4A52-A35A-7601542088EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49D7FCC-3ECB-4A52-A35A-7601542088EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
